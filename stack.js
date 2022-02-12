@@ -1,4 +1,4 @@
-let Stack = function() {
+let myStack = function() {
     this.count = 0;
     this.storage = {};
 
@@ -23,7 +23,7 @@ let Stack = function() {
 
 };
 // test
-let s = new Stack
+let s = new myStack
 s.push(1)
 s.push(6)
 s.push(5)
